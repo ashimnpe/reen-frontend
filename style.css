@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     font-family: 'Roboto', sans-serif;
-    color: #283645;
+    color: #506a85;
 }
 
 .top-bar{
@@ -12,12 +13,16 @@ body{
     float: right;    
 }
 
+.page-header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .nav-link{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
-    /* margin-right: 20px; */
-    /* text-align: center; */
+    color: #506a85;
 }
 
 
@@ -79,6 +84,7 @@ body{
     position: relative;
     top: 80px;
     height: 360px;
+    
 }
 
 .contact button{
@@ -122,3 +128,8 @@ body{
     color: rgba(255, 255, 255, 0.3);
 }
 
+
+.more-info a{
+    color: #fff;
+    text-decoration: none;
+}
